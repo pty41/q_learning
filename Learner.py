@@ -26,7 +26,8 @@ for (i, j, c, w) in World.specials:
 
 
 def do_action(action):
-    s = World.player
+    #s = World.player
+    s = World.ob
     r = -World.score
     if action == actions[0]:
         World.try_move(0, -1)
@@ -38,7 +39,8 @@ def do_action(action):
         World.try_move(1, 0)
     else:
         return
-    s2 = World.player
+    #s2 = World.player
+    s2 = World.ob
     r += World.score
     return s, action, r, s2
 

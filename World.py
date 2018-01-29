@@ -1,26 +1,28 @@
-from Tkinter import *
+from tkinter import *
+import numpy as np
 master = Tk()
 
 triangle_size = 0.1
 cell_score_min = -0.2
 cell_score_max = 0.2
-Width = 25
-(x, y) = (20, 20)
+Width = 50
+(x, y) = (10, 10)
 actions = ["up", "down", "left", "right"]
-
+BOARD_SIZE = x*y
 board = Canvas(master, width=x*Width, height=y*Width)
 player = (0, y-1)
 score = 1
 restart = False
 walk_reward = -0.04
-ghost = ((x-1)/2, (y-1)/2)
+ghost = (int((x-1)/2), int((y-1)/2))
 trophy = (4, 0)
-walls = [(1, 1), (1, 2), (2, 1), (2, 2), (y-2, (y-1)/2), (y-3, (y-1)/2), (y-2, (y-1)/2-1), (y-3, (y-1)/2-1) ]
-trophy_info = (4, 0, "green", 1)
-ghost_info = (ghost[0], ghost[1], "red", -1)
+walls = [(1, 1), (1, 2), (2, 1), (2, 2), (y-2, int((y-1)/2)), (y-3, int((y-1)/2)), (y-2, int((y-1)/2)-1), (y-3, int((y-1)/2)-1) ]
+trophy_info = (4, 0, "green", 30)
+ghost_info = (ghost[0], ghost[1], "red", -30)
 #specials = [(ghost[0], ghost[1], "red", -1), (4, 0, "green", 1)]
 specials = [ghost_info, trophy_info]
 cell_scores = {}
+ob = np.identity(BOARD_SIZE)[int(player[1])*x + int(player[0])]
 
 
 def create_triangle(i, j, action):
@@ -111,17 +113,18 @@ def try_move(dx, dy):
     if (new_x >= 0) and (new_x < x) and (new_y >= 0) and (new_y < y) and not ((new_x, new_y) in walls):
         board.coords(me, new_x*Width+Width*2/10, new_y*Width+Width*2/10, new_x*Width+Width*8/10, new_y*Width+Width*8/10)
         player = (new_x, new_y)
-    specials_x = [(ghost[0], ghost[1], "red", -1), trophy_info]
+    specials_x = [(ghost[0], ghost[1], "red", -30), trophy_info]
     for (i, j, c, w) in specials_x:
         if new_x == i and new_y == j:
             score -= walk_reward
             score += w
             if score > 0:
-                print "Success! score: ", score
+                print ("Success! score: ", score)
             else:
-                print "Fail! score: ", score
+                print ("Fail! score: ", score)
             restart = True
-            return
+            return restart
+    return restart
     #print "score: ", score
 
 
@@ -144,11 +147,12 @@ def call_right(event):
 def restart_game():
     global player, score, me, restart, ghost_locate, ghost
     player = (0, y-1)
-    ghost = ((x-1)/2, (y-1)/2)
+    ghost = (int((x-1)/2), int((y-1)/2))
     score = 1
     restart = False
     board.coords(me, player[0]*Width+Width*2/10, player[1]*Width+Width*2/10, player[0]*Width+Width*8/10, player[1]*Width+Width*8/10)
     board.coords(ghost_locate, ghost[0]*Width, ghost[1]*Width, (ghost[0]+1)*Width, (ghost[1]+1)*Width)
+    return ob
 
 def has_restarted():
     return restart
