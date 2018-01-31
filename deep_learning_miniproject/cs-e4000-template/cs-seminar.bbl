@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+
+\bibitem{articleonline}
+G~A.~Rummery and Mahesan Niranjan.
+\newblock On-line q-learning using connectionist systems.
+\newblock 11 1994.
+
+\bibitem{mnih2015humanlevel}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei~A. Rusu, Joel Veness,
+  Marc~G. Bellemare, Alex Graves, Martin Riedmiller, Andreas~K. Fidjeland,
+  Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis
+  Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, and
+  Demis Hassabis.
+\newblock Human-level control through deep reinforcement learning.
+\newblock {\em Nature}, 518(7540):529--533, February 2015.
+
+\bibitem{DBLP:journals/corr/SchulmanAC17}
+John Schulman, Pieter Abbeel, and Xi~Chen.
+\newblock Equivalence between policy gradients and soft q-learning.
+\newblock {\em CoRR}, abs/1704.06440, 2017.
+
+\bibitem{Sutton:1999:PGM:3009657.3009806}
+Richard~S. Sutton, David McAllester, Satinder Singh, and Yishay Mansour.
+\newblock Policy gradient methods for reinforcement learning with function
+  approximation.
+\newblock In {\em Proceedings of the 12th International Conference on Neural
+  Information Processing Systems}, NIPS'99, pages 1057--1063, Cambridge, MA,
+  USA, 1999. MIT Press.
+
+\bibitem{Tesauro1992}
+Gerald Tesauro.
+\newblock Practical issues in temporal difference learning.
+\newblock {\em Machine Learning}, 8(3):257--277, May 1992.
+
+\bibitem{Tesauro:1995:TDL:203330.203343}
+Gerald Tesauro.
+\newblock Temporal difference learning and td-gammon.
+\newblock {\em Commun. ACM}, 38(3):58--68, March 1995.
+
+\bibitem{Watkins1992}
+Christopher J. C.~H. Watkins and Peter Dayan.
+\newblock Q-learning.
+\newblock {\em Machine Learning}, 8(3):279--292, May 1992.
+
+\bibitem{deepcompareurl}
+Felix Yu.
+\newblock Deep q network vs policy gradients - an experiment on vizdoom with
+  keras.
+\newblock 11 2017.
+
+\end{thebibliography}

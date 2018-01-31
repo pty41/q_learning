@@ -135,7 +135,6 @@ def run():
                     #Choose an action with the maximum expected value.
                     a,allQ = sess.run([q_net.predict,q_net.Q_out],feed_dict={q_net.inputs:[s],q_net.keep_per:1.0})
                     a = a[0]
-                    print ("action.....", a)
                 if exploration == "random":
                     #Choose an action randomly.
                     a = np.random.randint(0,4)
@@ -181,8 +180,9 @@ def run():
 
                 rAll += r
                 s = s1
-                total_steps += 1
+                
                 if d == True:
+                    total_steps += 1
                     break
             jList.append(j)
             rList.append(rAll)
