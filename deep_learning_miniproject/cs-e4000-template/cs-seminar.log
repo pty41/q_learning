@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.25)  31 JAN 2018 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.25)  31 JAN 2018 23:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,7 +765,26 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count122
+\c@ALG@rem=\count123
+\c@ALG@nested=\count124
+\ALG@tlm=\skip51
+\ALG@thistlm=\skip52
+\c@ALG@Lnr=\count125
+\c@ALG@blocknr=\count126
+\c@ALG@storecount=\count127
+\c@ALG@tmpcounter=\count128
+\ALG@tmplength=\skip53
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -778,7 +797,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -796,13 +815,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count122
+\inf@bad=\count129
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count123
-\leftroot@=\count124
+\uproot@=\count130
+\leftroot@=\count131
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count125
-\DOTSCASE@=\count126
+\classnum@=\count132
+\DOTSCASE@=\count133
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -811,15 +830,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count127
-\c@MaxMatrixCols=\count128
+\macc@depth=\count134
+\c@MaxMatrixCols=\count135
 \dotsspace@=\muskip10
-\c@parentequation=\count129
-\dspbrk@lvl=\count130
+\c@parentequation=\count136
+\dspbrk@lvl=\count137
 \tag@help=\toks32
-\row@=\count131
-\column@=\count132
-\maxfields@=\count133
+\row@=\count138
+\column@=\count139
+\maxfields@=\count140
 \andhelp@=\toks33
 \eqnshift@=\dimen169
 \alignsep@=\dimen170
@@ -828,49 +847,64 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen173
 \lineht@=\dimen174
 \@envbody=\toks34
-\multlinegap=\skip52
-\multlinetaggap=\skip53
+\multlinegap=\skip55
+\multlinetaggap=\skip56
 \mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count141
+\float@exts=\toks36
+\float@box=\box39
+\@float@everytoks=\toks37
+\@floatcapt=\box40
+)
+\@float@every@algorithm=\toks38
+\c@algorithm=\count142
+)
 (./cs-seminar.aux
 
-LaTeX Warning: Label `fig:mypicture1' multiply defined.
+LaTeX Warning: Label `eq:q_loss' multiply defined.
 
 )
 \openout1 = `cs-seminar.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for T1+pnc on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for T1+pnc on input line 12.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pnc.fd
 File: t1pnc.fd 2001/06/04 font definitions for T1/pnc.
 )
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
+\scratchcounter=\count143
 \scratchdimen=\dimen175
-\scratchbox=\box39
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count137
+\scratchbox=\box41
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count146
 \MPscratchDim=\dimen176
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks37
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -952,122 +986,121 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 20.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 20.
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 19.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 19.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 18.99994pt on input line 20.
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+(Font)              scaled to size 18.99994pt on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 20.
+(Font)              scaled to size 10.40245pt on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.44997pt on input line 20.
+(Font)              scaled to size 10.44997pt on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <11> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.44997pt on input line 20.
+(Font)              scaled to size 10.44997pt on input line 19.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
 
  []
 
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 25.
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 25.
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 22.
 [1
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 41.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 41.
+(Font)              scaled to size 10.40245pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 41.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 41.
+(Font)              scaled to size 11.39996pt on input line 34.
 
-[2]
-Overfull \hbox (4.30196pt too wide) in paragraph at lines 60--61
-[]\T1/pnc/m/n/10.95 In 1995, Ger-ald Tesauro [[]] pro-posed a new re-in-force-m
-ent learn-ing meth-
+Overfull \hbox (6.56206pt too wide) in paragraph at lines 36--37
+\T1/pnc/m/n/10.95 re-in-force-ment learn-ing, which is q-learning and pol-icy g
+ra-di-ent. Q-learning
  []
 
-
-Overfull \hbox (2.67546pt too wide) in paragraph at lines 60--61
-\T1/pnc/m/n/10.95 ment learn-ing to ap-prox-i-mated the value func-tion. There-
-fore, TD-gammon
- []
-
-[3] <figures/grid_drew.png, id=19, 248.93pt x 252.945pt>
+[2] [3] [4] <figures/grid_drew.png, id=27, 248.93pt x 252.945pt>
 File: figures/grid_drew.png Graphic file (type png)
 
 <use figures/grid_drew.png>
-Package pdftex.def Info: figures/grid_drew.png used on input line 82.
+Package pdftex.def Info: figures/grid_drew.png used on input line 177.
 (pdftex.def)             Requested size: 110.96687pt x 112.75894pt.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <9> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 83.
-LaTeX Font Info:    Try loading font information for OMS+pnc on input line 95.
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 178.
+ [5 <./figures/grid_drew.png>]
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 190.
+
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omspnc.fd
 File: omspnc.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
- [4 <./figures/grid_drew.png>] <figures/normal.png, id=26, 390.45876pt x 279.04
-25pt>
-File: figures/normal.png Graphic file (type png)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
 
-<use figures/normal.png>
-Package pdftex.def Info: figures/normal.png used on input line 124.
-(pdftex.def)             Requested size: 184.94292pt x 132.1676pt.
- [5 <./figures/normal.png>] (./cs-seminar.bbl
+<figures/normal&extream.png, id=33, 1126.2075pt x 265.99374pt>
+File: figures/normal&extream.png Graphic file (type png)
+
+<use figures/normal&extream.png>
+Package pdftex.def Info: figures/normal&extream.png used on input line 219.
+(pdftex.def)             Requested size: 332.895pt x 78.62576pt.
+ [6] (./cs-seminar.bbl
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 1.
- [6])
-[7] (./cs-seminar.aux)
+ [7 <./figures/normal&extream.png>]) [8] (./cs-seminar.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15000 strings out of 492995
- 285345 string characters out of 6132704
- 737793 words of memory out of 5000000
- 18233 multiletter control sequences out of 15000+600000
- 45908 words of font info for 62 fonts, out of 8000000 for 9000
+ 15576 strings out of 492995
+ 293848 string characters out of 6132704
+ 746950 words of memory out of 5000000
+ 18793 multiletter control sequences out of 15000+600000
+ 46689 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,58p,1143b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,6n,58p,1143b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on cs-seminar.pdf (7 pages, 96492 bytes).
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/urw/ncntrsbk/uncri8a.pfb>
+Output written on cs-seminar.pdf (8 pages, 197547 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
