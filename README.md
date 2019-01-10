@@ -1,4 +1,4 @@
-# q_learning
+# Deep reinforcement learning
 
 In the deep reinforcement learning, the machine addresses the optimal control problem by the positive feedback or reward when interaction with the environment. In the design perspective, we require to develop an agent to minimize some behavior of a system over time and then to reaction via the previous trial and error feedback.
 
